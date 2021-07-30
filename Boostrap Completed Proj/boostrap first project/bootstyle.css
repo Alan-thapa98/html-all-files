@@ -1,0 +1,122 @@
+        * {
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+
+        /* ************************************  navbar ********************************************** */
+        .body {
+            font-family: 'Rowdies', cursive;
+        }
+
+        #height {
+            min-height: 90vh;
+            width: 100%;
+        }
+
+        nav {
+            width: 100% !important;
+        }
+
+        .nav-page {
+            display: flex;
+            text-align: center;
+            justify-content: center;
+            align-self: auto;
+            margin-top: 25vh;
+        }
+
+        header {
+            background-image: linear-gradient(to right, rgba(0, 0, 0, .3), rgba(0, 0, 0, .2)), url(./pic/3writer.jpg);
+            height: 100vh;
+            width: 100%;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+
+        hr {
+            color: aqua;
+        }
+
+        .show {
+            text-shadow: .2px 0.2px black;
+        }
+
+        /* ************************************  end of vavbar ********************************************** */
+        /* ************************************ globle********************************************** */
+        .height1 {
+            height: 100vh;
+            width: 100%;
+        }
+
+        /* ************************************  slikks ********************************************** */
+
+        .one-tile {
+            width: 300px;
+            height: 10px;
+            margin: 0 auto;
+            /* background: blue!important;  /*it is just for soure another color add beside boostrapok */
+        }
+
+        .one-about {
+            width: 275px;
+            height: 10px;
+            margin: 0 auto;
+            /* background: blue!important;  /*it is just for soure another color add beside boostrapok */
+        }
+
+        .one-projects {
+            width: 350px;
+            height: 10px;
+            margin: 0 auto;
+            /* background: blue!important;  /*it is just for soure another color add beside boostrapok */
+        }
+
+        /* ************************************  end of skills ********************************************** */
+        /* ************************************ about col of img  ********************************************** */
+        .height-80 {
+            height: 100vh;
+        }
+
+        .about-picture {
+            background-image: url(./2dj.jpg);
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+        }
+
+        /* ************************************  end of about col of img  ********************************************** */
+        /* ************************************ caroudel ********************************************** */
+        .row-height {
+            height: 80vh;
+            width: 100%;
+            /* ************************************ end of caroudel ********************************************** */
+        }
+
+        #filler {
+            /* height: 100Vh; */
+            background-image: linear-gradient(to right, rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url(../pic/3writer.jpg);
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            text-shadow: 1px 1px black;
+        }
+
+        /* ************************************ contact us from********************************************** */
+        .coool-1 {
+            background-color: rgb(245, 226, 238);
+        }
+
+        /* ************************************  end of contact us from  ********************************************** */
+        /* ************************************ hover effect on anime shows  ********************************************** */
+        .extra-div:hover {
+            box-shadow: 0 0 20px skyblue;
+            transform: translateY(-20px);
+        }
+
+        /* ************************************  end of hover effect on anime shows ********************************************** */
+        /* ************************************  ********************************************** */
+        /* ************************************  end of ********************************************** */
+        /* ************************************  ********************************************** */

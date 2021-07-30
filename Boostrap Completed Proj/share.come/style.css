@@ -1,0 +1,229 @@
+@import url("https://fonts.googleleapis.com/css?family=lato:400,700");
+
+:root {
+    --primaryColor: #f09d51;
+    --mainWhite: #fff;
+    --mainGray: #ececec;
+    --mainBlack: #222;
+    --mainSpacing: 0.1rem;
+    --mainTransition: all 0.3s linear;
+    --blue: #007bff;
+    --indigo: #6610f2;
+    --purple: #6f42c1;
+    --pink: #e83e8c;
+    --red: #dc3545;
+    --orange: #fd7e14;
+    --yellow: #ffc107;
+    --green: #28a745;
+    --teal: #20c997;
+    --cyan: #17a2b8;
+    --white: #fff;
+    --gray: #6c757d;
+    --gray-dark: #343a40;
+    --primary: #007bff;
+    --secondary: #6c757d;
+    --success: #28a745;
+    --info: #17a2b8;
+    --warning: #ffc107;
+    --danger: #dc3545;
+    --light: #f8f9fa;
+    --dark: #343a40;
+    --breakpoint-xs: 0;
+    --breakpoint-sm: 576px;
+    --breakpoint-md: 768px;
+    --breakpoint-lg: 992px;
+    --breakpoint-xl: 1200px;
+    --font-family-sans-serif: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    --font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.navbar {
+    position: sticky;
+    top: 0;
+    width: 100%;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    background: rgb(231, 226, 221);
+    z-index: 1;
+    justify-content: space-between;
+
+}
+
+body {
+    color: var(--mainBlack);
+    background: var(--mainWhite);
+    font-family: "lato", sans-serif;
+    background: rgb(19, 17, 17);
+}
+
+code[class*="language-"],
+pre[class*="language-"] {
+    max-height: 614px;
+}
+
+.commentContainer {
+    overflow-x: auto;
+}
+
+.content-holder {
+    list-style: none;
+    padding: 0;
+}
+
+
+.content-holder a {
+    color: black;
+    text-decoration: none;
+}
+
+.content-holder li:hover {
+    background-color: rgb(9, 9, 10)
+        /* background-color: skyblue; */
+        /* background-color: blue; */
+        /* cursor: pointer; */
+
+}
+
+.content-holder-item {
+    padding: 23px 12px;
+    font-size: 16px;
+}
+
+li.active {
+    background-color: rgb(214, 214, 214);
+}
+
+.bg-black {
+    background-color: black;
+}
+
+/* #video-box {
+            overflow-y: scroll;
+        } */
+
+#content-box {
+    max-height: 85vh;
+    overflow-y: scroll;
+
+}
+
+#course-content-box {
+    align-self: flex-start;
+    height: 20px;
+    position: sticky;
+    top: 0;
+}
+
+.bg-lgrey {
+    background-color: rgb(231, 231, 233);
+}
+
+#toggleCourse {
+    display: none;
+}
+
+.openCourseHeight {
+    height: 76vh !important;
+}
+
+@media only screen and (max-width: 400px) {
+
+    .nav-link {
+        font-size: 16px;
+        padding: 9px 6px;
+    }
+
+    #course-content-box {
+        height: 57px;
+    }
+}
+
+@media only screen and (max-width: 560px) {
+    img.rounded-circle {
+        height: 0px;
+        /* visibility: hidden; */
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    #course-content-box {
+        height: 46px;
+        transition: height 0.4s;
+        position: static;
+    }
+
+    #content-box {
+        height: 70vh;
+        /* visibility: hidden; */
+    }
+
+    #toggle-button {
+        visibility: visible;
+    }
+
+    #video-box {
+        z-index: 1;
+    }
+
+    #sticky-d {
+        position: sticky;
+        top: 0;
+        z-index: 1;
+    }
+
+    #toggleCourse {
+        display: inline;
+    }
+
+    .other {
+        margin-left: -15px;
+        margin-right: -15px;
+    }
+}
+
+#mybtn {
+    /* display: none; */
+    color: black;
+    position: fixed;
+    bottom: 20px;
+    right: 40px;
+    z-index: 99;
+    border: none;
+    border-radius: 30px;
+    background-color: white;
+    padding: 10px;
+}
+
+.carousel-control-next-icon {
+    border: none;
+    border-radius: 30px;
+    /*padding: 15px;*/
+}
+
+.carousel-control-prev-icon {
+    border: none;
+    border-radius: 30px;
+    background-color: blue;
+    /*padding: 15px;*/
+
+}
+
+.btn-outline-primary:hover {
+    color: white;
+}
+
+.small-text {
+    font-size: 15px;
+}
